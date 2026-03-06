@@ -8,6 +8,7 @@
 	--fondo-gris:#fafafa;
 	--color-negro:#303132;
 	--color-morado:#8439D9;
+	--fondo-input: #f1f5f9;
 }
 
 
@@ -17,6 +18,8 @@ body {
 	font-size: 16px;
 	color: var(--color-body);
 	line-height: 1.8; 
+	
+	
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -50,6 +53,15 @@ header{
 	font-weight: 600;
 	margin-bottom: 30px;
 }
+
+
+#hero.hero-contact-us{
+	background-image: url("../img/bg-contact-us.jpg");
+}
+
+
+
+
 
 .btn-primary{
 	background-color: var(--color-primary);
@@ -233,20 +245,75 @@ footer{
 }	
 	
 	
+#contact .cta{
+	color:#FFFFFF;
+	padding: 8% 0;
+}	
 	
 	
+#contact .cta p{
+	margin-bottom: inherit;
+}	
 	
 	
+#contact .cta h4{
+	color:#FFFFFF;
+	font-size: 20px;
+}	
 	
 	
+#contact .cta i{
+	background-color: rgba(255,255,255,0.31);
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	margin-bottom:20px;
+	font-size: 20px;
+}	
 	
+#contact .cta i:hover{
+	background-color: rgba(255,255,255,1.00);
+	color: var(--color-primary);
+	transition: all 0.4s ease-in-out;
+}	
 	
+.contact-map{
+	margin-top:-20%;
+}	
 	
-	
-	
-	
-	
-	
-	
+
+
+#contact-form input,
+#contact-form textarea{
+	background-color: var(--fondo-input);
+	border-radius: 0px;
+	border:0px;
+	padding: 10px;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder{
+	color:#aaa;
+	font-size:14px;
+}
+
+#contact-form.titulo{
+	font-size:40px;
+	font-weight: 700;
+}
+
+#contact-form ul{
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
 
 
